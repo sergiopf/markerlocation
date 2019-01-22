@@ -10,9 +10,10 @@ To use your own custom CSS based animations, just create the HTML object and the
 	new MarkerLocation(map, new google.maps.LatLng(42.775243, -3.206925), createDocumentObject());
    
    It creates the HTML code that you prefer, this example uses:
-   
+```   
 	<div class='iconLocation'></div>
-   
+```
+
 2) You can control the HTML code creating document objects, like this:
 ```
 	function createDocumentObject(){
